@@ -9,7 +9,7 @@
     // Coloca tus imágenes en public/img/carousel/
     $slides = [
       ['src' => 'img/actividades/carrusel/abuelitos.png', 'caption' => 'Bienvenidos al Liceo'],
-      ['src' => 'img/actividades/carrusel/independiencia.png', 'caption' => 'Excelencia académica'],
+      ['src' => 'img/actividades/carrusel/independencia.png', 'caption' => 'Excelencia académica'], 
       ['src' => 'img/actividades/carrusel/mascotas.png', 'caption' => 'Formación integral'],
       ['src' => 'img/actividades/carrusel/princesa.jpg', 'caption' => 'Princesa'],
 
