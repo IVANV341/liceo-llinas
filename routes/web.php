@@ -4,6 +4,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'pages.home')->name('home');
 
+Route::get('/health', fn() => 'ok '.app()->version());
+
+
 Route::prefix('/colegio')->group(function () {
     Route::view('/', 'pages.colegio.index')->name('colegio');
     Route::view('/mision-vision', 'pages.colegio.mision')->name('colegio.mision');
