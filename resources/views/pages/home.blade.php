@@ -6,15 +6,16 @@
 {{-- ========== SLIDER / HERO ========== --}}
 <section class="hero-carousel">
   @php
-    // Coloca tus imágenes en public/img/carousel/
-    $slides = [
-      ['src' => 'img/actividades/carrusel/abuelitos.png', 'caption' => 'Bienvenidos al Liceo'],
-      ['src' => 'img/actividades/carrusel/independencia.png', 'caption' => 'Excelencia académica'], 
-      ['src' => 'img/actividades/carrusel/mascotas.png', 'caption' => 'Formación integral'],
-      ['src' => 'img/actividades/carrusel/princesa.jpg', 'caption' => 'Princesa'],
+$slides = [
+  ['src' => 'img/actividades/carrusel/abuelitos.png',     'caption' => 'Bienvenidos al Liceo'],
+  ['src' => 'img/actividades/carrusel/independencia.png', 'caption' => 'Excelencia académica'],
+  ['src' => 'img/actividades/carrusel/mascotas.png',      'caption' => 'Formación integral'],
+  ['src' => 'img/actividades/carrusel/princesa.jpg',      'caption' => 'Princesa'],
+];
+@endphp
 
-    ];
-  @endphp
+<img src="{{ asset($s['src']) }}" class="d-block w-100" alt="Slide {{ $i+1 }}">
+
 
   <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="8000" data-bs-pause="hover">
     <div class="carousel-indicators">
