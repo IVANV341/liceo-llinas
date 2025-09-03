@@ -14,7 +14,6 @@ $slides = [
 ];
 @endphp
 
-<img src="{{ asset($s['src']) }}" class="d-block w-100" alt="Slide {{ $i+1 }}">
 
 
   <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="8000" data-bs-pause="hover">
