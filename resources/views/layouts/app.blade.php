@@ -80,9 +80,10 @@
   <div class="branding py-3">
     <div class="container text-center">
       
-      <a href="{{ route('home') }}" class="d-inline-block">
-        <img src="{{ asset('img/actividades/logo/logo_colegio.jpg') }}" alt="Liceo Bilingüe Rodolfo R. Llinás" />
+      <a href="{{ url('/') }}" class="d-inline-block">
+  <img src="{{ asset('img/actividades/logo/logo_colegio.jpg') }}" alt="Liceo Bilingüe Rodolfo R. Llinás">
       </a>
+
     </div>
   </div>
 
